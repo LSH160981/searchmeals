@@ -20,7 +20,7 @@
       </a>
       <router-link
         :to="{ name: 'mealDetails', params: { id: meal.idMeal } }"
-        class="px-3 py-2 rounded hover:bg-purple-500 hover:text-white transition-colors"
+        class="px-3 py-2 rounded bg-zinc-200 hover:bg-purple-500 hover:text-white transition-colors"
       >
         View Detail
       </router-link>
