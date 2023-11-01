@@ -1,5 +1,9 @@
 <template>
-  <div class="bg-white shadow rounded-xl flex flex-col justify-between">
+  <div
+    class="bg-white shadow rounded-xl 
+    flex flex-col justify-between 
+    duration-300 hover:drop-shadow-2xl hover:scale-[1.01]"
+  >
     <router-link :to="{ name: 'mealDetails', params: { id: meal.idMeal } }">
       <img
         :src="meal.strMealThumb"
